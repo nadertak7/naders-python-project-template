@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temp files
+.DS_Store
+*.log
+
+# Environment
+.venv
+.env
