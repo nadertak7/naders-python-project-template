@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: |
         if [ -f pyproject.toml ]; then
-          uv pip install -e ".[dev]"
+          uv pip install --system -e ".[dev]"
         else
           pip install pytest
         fi
