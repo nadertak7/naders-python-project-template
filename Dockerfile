@@ -13,5 +13,5 @@ COPY . .
 RUN if [ -f pyproject.toml ]; then \
       uv pip install --system --no-cache -e '.[dev]'; \
     else \
-     "No pyproject.toml file found. Skipping installation..."
+      echo "No pyproject.toml file found. Skipping installation..."
     fi
