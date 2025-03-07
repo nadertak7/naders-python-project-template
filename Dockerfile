@@ -10,8 +10,8 @@ RUN rm -rf /root/.cache/uv
 
 COPY . .
 
-RUN if [ -f pyproject.toml ] ; then \
-    uv pip install --no-cache -e .; \
-  else \
-    echo "No pyproject.toml file found. Skipping package installation..."; \
-  fi
+RUN if [ -f pyproject.toml ]; then \
+      uv pip install --system --no-cache -e '.[dev]'; \
+    else \
+     "No pyproject.toml file found. Skipping installation..."
+    fi
