@@ -1,7 +1,7 @@
 [project]
-name = "dota-2-hero-picker-cv"
+name = ""
 version = "0.1.0"
-description = "Dota 2 Hero Picker with Computer Vision"
+description = ""
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
