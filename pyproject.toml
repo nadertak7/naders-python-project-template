@@ -1,7 +1,7 @@
 [project]
-name = "Project name goes here"
+name = "project-name"
 version = "0.1.0"
-description = "Project description goes here"
+description = "Project Description"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
